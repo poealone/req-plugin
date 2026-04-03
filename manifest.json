@@ -1,0 +1,17 @@
+{
+  "name": "ReQ",
+  "version": "1.0.0",
+  "author": "johnytiger",
+  "description": "4-band parametric EQ — Low Shelf, Peak, Peak, High Shelf. Drag nodes on the curve to adjust frequency and gain.",
+  "type": "fx",
+  "category": "filter",
+  "ui": {
+    "layout": "custom",
+    "editor": {
+      "scope": false,
+      "meters": true,
+      "grMeter": false,
+      "particles": false
+    }
+  }
+}
