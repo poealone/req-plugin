@@ -1,12 +1,68 @@
 {
   "name": "ReQ",
+  "author": "PocketDAW",
   "version": "1.0.0",
-  "author": "johnytiger",
-  "description": "4-band parametric EQ — Low Shelf, Peak, Peak, High Shelf. Drag nodes on the curve to adjust frequency and gain.",
-  "type": "fx",
+  "description": "4-band visual parametric EQ with interactive frequency response curve",
+  "type": "effect",
   "category": "filter",
+  "library": "req.so",
+  "params": [
+    {
+      "name": "LS Freq",
+      "default": 0.2
+    },
+    {
+      "name": "LS Gain",
+      "default": 0.5
+    },
+    {
+      "name": "LS Slope",
+      "default": 1.0
+    },
+    {
+      "name": "P1 Freq",
+      "default": 0.2
+    },
+    {
+      "name": "P1 Gain",
+      "default": 0.5
+    },
+    {
+      "name": "P1 Q",
+      "default": 0.2
+    },
+    {
+      "name": "P2 Freq",
+      "default": 0.2
+    },
+    {
+      "name": "P2 Gain",
+      "default": 0.5
+    },
+    {
+      "name": "P2 Q",
+      "default": 0.2
+    },
+    {
+      "name": "HS Freq",
+      "default": 0.5
+    },
+    {
+      "name": "HS Gain",
+      "default": 0.5
+    },
+    {
+      "name": "HS Slope",
+      "default": 1.0
+    }
+  ],
   "ui": {
-    "layout": "custom",
+    "layout": "knobs",
+    "accent": [
+      80,
+      180,
+      255
+    ],
     "editor": {
       "scope": false,
       "meters": true,
